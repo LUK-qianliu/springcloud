@@ -21,8 +21,8 @@ public class EurekaClientAllpication {
     String port;
 
     @RequestMapping("/hi")
-    public String home(@RequestParam(value = "name", defaultValue = "forezp") String name) {
-        return "hi " + name + " ,i am from port:" + port;
+    public String home(String name) {
+        return "hi ";
     }
 
 }
