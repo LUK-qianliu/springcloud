@@ -51,19 +51,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/springcloud-eureka/eureka-client/src/main/java/com/qianliu/eurekaClient/EurekaClientAllpication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+            <state relative-caret-position="270">
+              <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#823#824#0" expanded="true" />
+                <element signature="e#887#888#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springcloud-eureka/eureka-server/src/main/java/com/qianliu/eurekaServer/EurekaServerApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="152">
@@ -78,8 +80,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springcloud-eureka/eureka-client/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+            <state relative-caret-position="190">
+              <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -102,8 +104,8 @@
         <option value="$PROJECT_DIR$/springcloud-eureka/eureka-server/src/main/java/com/qianliu/eurekaServer/main.java" />
         <option value="$PROJECT_DIR$/springcloud-eureka/eureka-server/src/main/java/com/qianliu/eurekaServer/EurekaServerApplication.java" />
         <option value="$PROJECT_DIR$/springcloud-eureka/eureka-client/pom.xml" />
-        <option value="$PROJECT_DIR$/springcloud-eureka/eureka-client/src/main/java/com/qianliu/eurekaClient/EurekaClientAllpication.java" />
         <option value="$PROJECT_DIR$/springcloud-eureka/eureka-client/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springcloud-eureka/eureka-client/src/main/java/com/qianliu/eurekaClient/EurekaClientAllpication.java" />
       </list>
     </option>
   </component>
@@ -230,7 +232,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565863605491" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565863853499" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -298,12 +300,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1565860100999</updated>
-      <workItem from="1565860106553" duration="3206000" />
+      <workItem from="1565860106553" duration="3683000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3206000" />
+    <option name="totallyTimeSpent" value="3683000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1390" height="747" extended-state="6" />
@@ -315,7 +317,7 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Capture Tool" />
       <window_info id="Web" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962519" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962519" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Terminal" />
@@ -326,7 +328,7 @@
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32901135" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32901135" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -385,29 +387,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-eureka/eureka-client/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-eureka/eureka-client/src/main/java/com/qianliu/eurekaClient/EurekaClientAllpication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springcloud-eureka/eureka-server/src/main/java/com/qianliu/eurekaServer/EurekaServerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" column="18" lean-forward="true" selection-start-line="7" selection-end-line="7" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-eureka/eureka-client/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-eureka/eureka-client/src/main/java/com/qianliu/eurekaClient/EurekaClientAllpication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#823#824#0" expanded="true" />
+            <element signature="e#887#888#0" expanded="true" />
           </folding>
         </state>
       </provider>
