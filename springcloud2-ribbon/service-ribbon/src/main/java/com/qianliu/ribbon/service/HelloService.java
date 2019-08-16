@@ -12,11 +12,10 @@ public class HelloService {
 
     /**
      * 调用eureka-client中的服务
-     * @param name
      * @return
      */
-    public String hiService(String name) {
-        return restTemplate.getForObject("http://eureka-client/hi?name="+name,String.class);
+    public String hiService() {
+        return restTemplate.getForObject("http://eureka-client/hi",String.class);
     }
 
 }
