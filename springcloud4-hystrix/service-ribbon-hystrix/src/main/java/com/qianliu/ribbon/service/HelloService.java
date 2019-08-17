@@ -13,6 +13,7 @@ public class HelloService {
 
     /**
      * 调用eureka-client中的服务
+     * HystrixCommand默认开启线程隔离
      * @return
      */
     @HystrixCommand(fallbackMethod = "error") // 定义熔断时候返回的方法

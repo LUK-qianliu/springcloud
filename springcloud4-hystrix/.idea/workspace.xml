@@ -2,22 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="528c695f-a712-442a-a2fa-4c79e7892fd5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client/eureka-client.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client/src/main/java/com/qianliu/eurekaClient/EurekaClientApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client/src/main/main1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-ribbon-hystrix/src/main/java/com/qianliu/ribbon/service/HelloService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud3-feign/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud3-feign/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-ribbon-hystrix2/src/main/java/com/qianliu/ribbon/service/pool/ACommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-ribbon-hystrix2/src/main/java/com/qianliu/ribbon/service/pool/BCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud5-zuul/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud5-zuul/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud5-zuul/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud5-zuul/service-feign/src/main/java/com/qianliu/feign/controller/HiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud5-zuul/service-ribbon/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud5-zuul/service-ribbon/src/main/java/com/qianliu/ribbon/ServiceRibbonApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud5-zuul/service-ribbon/src/main/java/com/qianliu/ribbon/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud5-zuul/service-ribbon/src/main/java/com/qianliu/ribbon/service/HelloService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud5-zuul/service-ribbon/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud5-zuul/service-zuul/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud5-zuul/service-zuul/service-zuul.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud5-zuul/service-zuul/src/main/java/com/qianliu/zuul/ServiceZuulApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud5-zuul/service-zuul/src/main/java/com/qianliu/zuul/zuul/MyFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud5-zuul/service-zuul/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client/eureka-client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/eureka-client.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-ribbon-hystrix/src/main/java/com/qianliu/ribbon/service/HelloService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-ribbon-hystrix/src/main/java/com/qianliu/ribbon/service/HelloService.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/eureka-client/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/service-ribbon/target/" />
     <ignored path="$PROJECT_DIR$/eureka-server/target/" />
     <ignored path="$PROJECT_DIR$/service-ribbon-hystrix/target/" />
+    <ignored path="$PROJECT_DIR$/service-ribbon-hystrix2/target/" />
+    <ignored path="$PROJECT_DIR$/eureka-client2/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,87 +42,92 @@
     <session id="-2013099510">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="6" />
-          <entry key="xml" value="1" />
-          <entry key="yml" value="1" />
+          <entry key="java" value="46" />
+          <entry key="xml" value="2" />
+          <entry key="yml" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="6" />
-          <entry key="XML" value="1" />
-          <entry key="YAML" value="1" />
+          <entry key="JAVA" value="46" />
+          <entry key="XML" value="2" />
+          <entry key="YAML" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="66" />
+          <entry key="java" value="250" />
           <entry key="xml" value="24" />
+          <entry key="yml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="66" />
+          <entry key="JAVA" value="250" />
           <entry key="XML" value="24" />
+          <entry key="YAML" value="4" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service-ribbon-hystrix/pom.xml">
+        <entry file="file://$PROJECT_DIR$/service-ribbon-hystrix2/src/main/java/com/qianliu/ribbon/controller/HelloController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+            <state relative-caret-position="247">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-ribbon-hystrix2/src/main/java/com/qianliu/ribbon/service/pool/ACommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/service-ribbon-hystrix/src/main/java/com/qianliu/ribbon/service/HelloService.java">
+        <entry file="file://$PROJECT_DIR$/service-ribbon-hystrix2/src/main/java/com/qianliu/ribbon/service/HelloService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="31">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-              <folding>
-                <element signature="e#373#374#0" expanded="true" />
-                <element signature="e#461#462#0" expanded="true" />
-                <element signature="e#661#662#0" expanded="true" />
-                <element signature="e#692#693#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service-ribbon-hystrix/src/main/java/com/qianliu/ribbon/controller/HelloController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-              <folding>
-                <element signature="e#483#484#0" expanded="true" />
-                <element signature="e#530#531#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-server/src/main/java/com/qianliu/eurekaServer/EurekaServerApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+            <state relative-caret-position="456">
+              <caret line="32" column="61" selection-start-line="32" selection-start-column="61" selection-end-line="32" selection-end-column="61" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>userCommand</find>
+      <find>aCommand</find>
+      <find>orderCommand1</find>
+      <find>orderCommand2</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>aCommand</replace>
+      <replace>bCommand1</replace>
+      <replace>bCommand2</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -119,7 +138,13 @@
         <option value="$PROJECT_DIR$/service-ribbon/pom.xml" />
         <option value="$PROJECT_DIR$/service-ribbon-hystrix/src/main/java/com/qianliu/ribbon/ServiceRibbonApplication.java" />
         <option value="$PROJECT_DIR$/eureka-client/src/main/java/com/qianliu/eurekaClient/EurekaClientApplication.java" />
+        <option value="$PROJECT_DIR$/eureka-client2/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/service-ribbon-hystrix/src/main/java/com/qianliu/ribbon/service/HelloService.java" />
+        <option value="$PROJECT_DIR$/service-ribbon-hystrix2/src/main/java/com/qianliu/ribbon/service/pool/BCommand.java" />
+        <option value="$PROJECT_DIR$/service-ribbon-hystrix2/src/main/java/com/qianliu/ribbon/controller/HelloController.java" />
+        <option value="$PROJECT_DIR$/service-ribbon-hystrix2/src/main/java/com/qianliu/ribbon/service/HelloService.java" />
+        <option value="$PROJECT_DIR$/service-ribbon-hystrix2/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/service-ribbon-hystrix2/src/main/java/com/qianliu/ribbon/service/pool/ACommand.java" />
       </list>
     </option>
   </component>
@@ -148,7 +173,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -159,60 +184,25 @@
             <path>
               <item name="springcloud4-hystrix" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud4-hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client" type="462c0819:PsiDirectoryNode" />
+              <item name="service-ribbon-hystrix2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud4-hystrix" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud4-hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client" type="462c0819:PsiDirectoryNode" />
+              <item name="service-ribbon-hystrix2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud4-hystrix" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud4-hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud4-hystrix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud4-hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud4-hystrix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud4-hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="eurekaClient" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud4-hystrix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud4-hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="service-ribbon-hystrix" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud4-hystrix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud4-hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="service-ribbon-hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud4-hystrix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud4-hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="service-ribbon-hystrix" type="462c0819:PsiDirectoryNode" />
+              <item name="service-ribbon-hystrix2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud4-hystrix" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud4-hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="service-ribbon-hystrix" type="462c0819:PsiDirectoryNode" />
+              <item name="service-ribbon-hystrix2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -220,7 +210,7 @@
             <path>
               <item name="springcloud4-hystrix" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud4-hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="service-ribbon-hystrix" type="462c0819:PsiDirectoryNode" />
+              <item name="service-ribbon-hystrix2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -229,7 +219,7 @@
             <path>
               <item name="springcloud4-hystrix" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud4-hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="service-ribbon-hystrix" type="462c0819:PsiDirectoryNode" />
+              <item name="service-ribbon-hystrix2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -239,7 +229,7 @@
             <path>
               <item name="springcloud4-hystrix" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud4-hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="service-ribbon-hystrix" type="462c0819:PsiDirectoryNode" />
+              <item name="service-ribbon-hystrix2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -249,7 +239,18 @@
             <path>
               <item name="springcloud4-hystrix" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud4-hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="service-ribbon-hystrix" type="462c0819:PsiDirectoryNode" />
+              <item name="service-ribbon-hystrix2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ribbon" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="pool" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud4-hystrix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud4-hystrix" type="462c0819:PsiDirectoryNode" />
+              <item name="service-ribbon-hystrix2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -258,8 +259,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -269,8 +270,8 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565945765258" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/service-ribbon-hystrix" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566034211504" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/eureka-client2" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -278,6 +279,9 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.qianliu.ribbon.service.pool" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\IDEA\springcloud\springcloud4-hystrix" />
     </key>
@@ -294,7 +298,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.EurekaClientApplication">
+  <component name="RunManager" selected="Spring Boot.ServiceRibbonApplication">
+    <configuration name="EurekaClientApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="eureka-client2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qianliu.eurekaClient.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qianliu.eurekaClient.EurekaClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EurekaClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eureka-client" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.qianliu.eurekaClient.EurekaClientApplication" />
@@ -311,6 +328,19 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.qianliu.eurekaServer.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceRibbonApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="service-ribbon-hystrix2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qianliu.ribbon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qianliu.ribbon.ServiceRibbonApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -332,10 +362,14 @@
       <item itemvalue="Spring Boot.EurekaClientApplication" />
       <item itemvalue="Spring Boot.EurekaServerApplication" />
       <item itemvalue="Spring Boot.ServiceRibbonApplication" />
+      <item itemvalue="Spring Boot.EurekaClientApplication (1)" />
+      <item itemvalue="Spring Boot.ServiceRibbonApplication (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ServiceRibbonApplication (1)" />
         <item itemvalue="Spring Boot.ServiceRibbonApplication" />
+        <item itemvalue="Spring Boot.EurekaClientApplication (1)" />
         <item itemvalue="Spring Boot.EurekaServerApplication" />
       </list>
     </recent_temporary>
@@ -350,49 +384,49 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1565942293719</updated>
-      <workItem from="1565942296134" duration="2737000" />
+      <workItem from="1565942296134" duration="2928000" />
+      <workItem from="1566022421842" duration="7438000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2737000" />
+    <option name="totallyTimeSpent" value="10366000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1390" height="747" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Capture Tool" />
-      <window_info id="Web" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962519" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25337332" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36201298" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.19642857" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962519" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -402,20 +436,20 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/service-ribbon-hystrix/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-client/src/main/java/com/qianliu/eurekaClient/EurekaClientApplication.java">
+    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/java/com/qianliu/eurekaServer/EurekaServerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="36" />
+          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/service-ribbon-hystrix/src/main/java/com/qianliu/ribbon/controller/HelloController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
-          <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
           <folding>
             <element signature="e#483#484#0" expanded="true" />
             <element signature="e#530#531#0" expanded="true" />
@@ -423,37 +457,108 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/java/com/qianliu/eurekaServer/EurekaServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/service-ribbon-hystrix/src/main/java/com/qianliu/ribbon/ServiceRibbonApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="26" />
+        <state relative-caret-position="152">
+          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service-ribbon-hystrix/pom.xml">
+    <entry file="file://$PROJECT_DIR$/service-ribbon-hystrix/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+        <state relative-caret-position="190">
+          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.5.RELEASE/spring-web-5.1.5.RELEASE-sources.jar!/org/springframework/web/client/RestTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="306" column="17" selection-start-line="306" selection-start-column="17" selection-end-line="306" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/service-ribbon-hystrix/src/main/java/com/qianliu/ribbon/service/HelloService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#373#374#0" expanded="true" />
-            <element signature="e#461#462#0" expanded="true" />
-            <element signature="e#661#662#0" expanded="true" />
-            <element signature="e#692#693#0" expanded="true" />
-          </folding>
+        <state>
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client/src/main/java/com/qianliu/eurekaClient/EurekaClientApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-ribbon-hystrix/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client2/src/main/java/com/qianliu/eurekaClient/EurekaClientApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client2/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-ribbon-hystrix2/src/main/java/com/qianliu/ribbon/ServiceRibbonApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-ribbon-hystrix2/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-ribbon-hystrix2/src/main/java/com/qianliu/ribbon/service/pool/BCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="28" column="1" lean-forward="true" selection-start-line="5" selection-end-line="28" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-ribbon-hystrix2/src/main/java/com/qianliu/ribbon/service/pool/ACommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-ribbon-hystrix2/src/main/java/com/qianliu/ribbon/controller/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-ribbon-hystrix2/src/main/java/com/qianliu/ribbon/service/HelloService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="32" column="61" selection-start-line="32" selection-start-column="61" selection-end-line="32" selection-end-column="61" />
         </state>
       </provider>
     </entry>
@@ -510,7 +615,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>service-ribbon-hystrix</last-edited>
+          <last-edited>eureka-client2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
