@@ -10,6 +10,7 @@
         <module name="eureka-server" />
         <module name="service-ribbon-hystrix" />
         <module name="service-ribbon-hystrix2" />
+        <module name="service-ribbon-hystrix3" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

@@ -18,9 +18,16 @@ public class HelloController {
     @Autowired
     RestTemplate restTemplate;
 
-    @GetMapping(value = "/hi")
-    public String hi() throws ExecutionException, InterruptedException {
-        return helloService.testPool();
-    }
+    @GetMapping(value = "/hii")
+    public String hii() {
+        //开启缓存必须在hystrix上下文中
+        HystrixRequestContext hystrixRequestContext = HystrixRequestContext.initializeContext();
 
+        // 在同一个hystrix上下文中，因为缓存的key被设置为固定值，所以下面两行取出来的数据相等
+        String cache = helloService.cache(restTemplate,1);
+        String cache2 = helloService.cache(restTemplate,2);
+
+        hystrixRequestContext.close();
+        return "cache:"+cache+"<br>cache2:"+cache2;
+    }
 }

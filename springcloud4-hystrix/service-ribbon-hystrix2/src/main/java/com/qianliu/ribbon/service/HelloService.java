@@ -1,18 +1,21 @@
 package com.qianliu.ribbon.service;
 
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
+import com.netflix.hystrix.contrib.javanica.cache.annotation.CacheResult;
+import com.netflix.hystrix.strategy.concurrency.HystrixRequestContext;
 import com.qianliu.ribbon.service.pool.ACommand;
 import com.qianliu.ribbon.service.pool.BCommand;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
+import java.util.Date;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Future;
 
 @Service
 public class HelloService {
-
 
     // 测试依赖隔离
     public String testPool() throws ExecutionException, InterruptedException {

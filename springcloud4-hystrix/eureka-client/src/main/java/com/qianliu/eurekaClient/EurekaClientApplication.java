@@ -4,9 +4,12 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+
+import java.util.Date;
 
 @SpringBootApplication
 @RestController
@@ -21,8 +24,8 @@ public class EurekaClientApplication {
     String port;
 
     @RequestMapping("/hi")
-    public String home(){
-        return "hi，"+"来自于："+port;
+    public String home(@RequestParam int id){
+        return "hi，"+"来自于："+port+" "+new Date()+" id:"+id;
     }
 
 }
