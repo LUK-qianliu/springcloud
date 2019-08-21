@@ -9,7 +9,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 
 @SpringBootApplication
 @RestController
@@ -24,8 +26,23 @@ public class EurekaClientApplication {
     String port;
 
     @RequestMapping("/hi")
-    public String home(@RequestParam int id){
+    public String hi(@RequestParam int id){
         return "hi，"+"来自于："+port+" "+new Date()+" id:"+id;
     }
 
+    /**
+     * 查询所有id
+     * @param ids
+     * @return
+     */
+    @RequestMapping("/his")
+    public List<String> his(@RequestParam List<Integer> ids){
+
+        List<String> results = new ArrayList<String>();
+        for (Integer id: ids) {
+            results.add("用户："+id);
+            System.out.println(id);
+        }
+        return results;
+    }
 }

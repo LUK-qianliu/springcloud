@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/service-ribbon-hystrix/pom.xml" />
         <option value="$PROJECT_DIR$/service-ribbon-hystrix2/pom.xml" />
         <option value="$PROJECT_DIR$/service-ribbon-hystrix3/pom.xml" />
+        <option value="$PROJECT_DIR$/service-ribbon-hystrix4/pom.xml" />
       </list>
     </option>
   </component>

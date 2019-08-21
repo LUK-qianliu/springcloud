@@ -11,6 +11,7 @@
         <module name="service-ribbon-hystrix" />
         <module name="service-ribbon-hystrix2" />
         <module name="service-ribbon-hystrix3" />
+        <module name="service-ribbon-hystrix4" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
