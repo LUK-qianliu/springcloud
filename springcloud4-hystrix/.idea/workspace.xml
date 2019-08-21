@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="528c695f-a712-442a-a2fa-4c79e7892fd5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/service-ribbon-hystrix4/src/main/java/com/qianliu/ribbon/controller/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-client/src/main/java/com/qianliu/eurekaClient/EurekaClientApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/src/main/java/com/qianliu/eurekaClient/EurekaClientApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-client/target/classes/com/qianliu/eurekaClient/EurekaClientApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/target/classes/com/qianliu/eurekaClient/EurekaClientApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud6-config/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud6-config/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="528c695f-a712-442a-a2fa-4c79e7892fd5" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/eureka-client/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/service-ribbon/target/" />
@@ -30,7 +21,7 @@
     <session id="-2013099510">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.3" value="1" />
@@ -193,112 +184,6 @@
               <item name="springcloud4-hystrix" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud4-hystrix" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="springcloud4-hystrix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud4-hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud4-hystrix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud4-hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud4-hystrix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud4-hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud4-hystrix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud4-hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud4-hystrix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud4-hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="eurekaClient" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud4-hystrix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud4-hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud4-hystrix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud4-hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="service-ribbon-hystrix4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud4-hystrix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud4-hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="service-ribbon-hystrix4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud4-hystrix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud4-hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="service-ribbon-hystrix4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud4-hystrix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud4-hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="service-ribbon-hystrix4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud4-hystrix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud4-hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="service-ribbon-hystrix4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ribbon" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud4-hystrix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud4-hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="service-ribbon-hystrix4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ribbon" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud4-hystrix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud4-hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="service-ribbon-hystrix4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ribbon" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud4-hystrix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud4-hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="service-ribbon-hystrix4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -315,8 +200,8 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566368211327" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566368487985" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../springcloud6-config" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -450,16 +335,15 @@
       <workItem from="1566176561364" duration="1150000" />
       <workItem from="1566292734863" duration="2815000" />
       <workItem from="1566349624463" duration="126000" />
-      <workItem from="1566359882189" duration="5794000" />
+      <workItem from="1566359882189" duration="6285000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29115000" />
+    <option name="totallyTimeSpent" value="29606000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1390" height="747" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2953523" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
