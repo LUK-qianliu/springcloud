@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3349ddf3-8053-4c2e-98c1-854d85368f6a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/eureka-server/eureka-server.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/java/com/qianliu/eureka/EurekaServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config-client/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-client/src/main/java/com/qianliu/configClient/ConfigClientApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/config-client/src/main/java/com/qianliu/configClient/ConfigClientApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-client/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-client/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/java/com/qianliu/configServer/ConfigServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/java/com/qianliu/configServer/ConfigServerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="3349ddf3-8053-4c2e-98c1-854d85368f6a" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/config-server/target/" />
@@ -33,7 +17,7 @@
     <session id="-1212673433">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
@@ -98,8 +82,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/eureka-server/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="31" selection-end-column="19" />
+            <state relative-caret-position="264">
+              <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -227,8 +211,8 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566379613647" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566381324222" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../springcloud7-bus" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -295,16 +279,15 @@
       <updated>1566018112472</updated>
       <workItem from="1566018116872" duration="1060000" />
       <workItem from="1566290679967" duration="1007000" />
-      <workItem from="1566368550631" duration="10354000" />
+      <workItem from="1566368550631" duration="11260000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12421000" />
+    <option name="totallyTimeSpent" value="13327000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1390" height="747" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25712144" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -316,7 +299,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.22889611" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22889611" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -428,8 +411,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/eureka-server/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="31" selection-end-column="19" />
+        <state relative-caret-position="264">
+          <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
         </state>
       </provider>
     </entry>
